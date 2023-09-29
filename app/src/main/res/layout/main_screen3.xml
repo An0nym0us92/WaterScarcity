@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Search Bar -->
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search..."
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:padding="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="8dp"
+        android:imeOptions="actionSearch"
+        android:singleLine="true"/>
+
+    <!-- Vertical Layout for Boxes -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchEditText"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <!-- Box 1 -->
+        <LinearLayout
+            android:id="@+id/box1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/box_bg"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <!-- Content for Box 1 -->
+            <!-- Customize this section with your content -->
+
+        </LinearLayout>
+
+        <!-- Box 2 -->
+        <LinearLayout
+            android:id="@+id/box2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/box_bg"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <!-- Content for Box 2 -->
+            <!-- Customize this section with your content -->
+
+        </LinearLayout>
+
+        <!-- Box 3 -->
+        <LinearLayout
+            android:id="@+id/box3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/box_bg"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <!-- Content for Box 3 -->
+            <!-- Customize this section with your content -->
+
+        </LinearLayout>
+
+        <!-- Box 4 -->
+        <LinearLayout
+            android:id="@+id/box4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/box_bg"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <!-- Content for Box 4 -->
+            <!-- Customize this section with your content -->
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
