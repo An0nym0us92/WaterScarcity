@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -21,12 +22,11 @@
         android:layout_marginEnd="16dp"
         android:padding="8dp"
         android:background="#ffff"
-        android:drawableLeft=""
         android:drawablePadding="8dp"
         android:imeOptions="actionSearch"
         android:singleLine="true"
         android:text="Search your keyword......"
-        android:textColor="#D3A39DAE"/>
+        android:textColor="#291D1D"/>
 
 
     <LinearLayout
@@ -37,9 +37,11 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/Rectangle1"
+        android:background="@drawable/rectangle1"
         android:clickable="true"
-        android:orientation="vertical">
+        android:focusable="true"
+        android:orientation="vertical"
+        >
 
 
     </LinearLayout>
@@ -53,7 +55,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/Rectangle1"
+        android:background="@drawable/rectangle1"
         android:clickable="true"
         android:orientation="vertical">
 
@@ -70,7 +72,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/Rectangle1"
+        android:background="@drawable/rectangle1"
         android:clickable="true"
         android:orientation="vertical">
 
@@ -86,7 +88,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/Rectangle1"
+        android:background="@drawable/rectangle1"
         android:clickable="true"
         android:orientation="vertical"
         >
@@ -109,6 +111,8 @@
         android:layout_above="@id/contactus"
         android:text="Email: akashbiswalXXXXXX"
         android:textColor="#fff"/>
+
+
 
 
 </RelativeLayout>

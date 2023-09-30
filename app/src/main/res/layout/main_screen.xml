@@ -18,20 +18,24 @@
         android:gravity="center_horizontal"/>
 
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="animation"/>
-
     <Button
+        android:id="@+id/clickbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="48dp"
+
+        android:layout_marginBottom="78dp"
         android:text="Save Water Now!!!"
         android:textStyle="italic" />
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/clickbutton"
+        android:layout_marginBottom="-63dp"
+        android:text="click on this"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
 
 </RelativeLayout>
